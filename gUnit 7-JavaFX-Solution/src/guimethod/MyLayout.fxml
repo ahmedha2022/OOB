@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+
+
+<VBox alignment="CENTER" prefHeight="170.0" prefWidth="730.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/11.0.1" fx:controller="guimethod.MyController">
+   <children>
+      <HBox alignment="CENTER" prefHeight="39.0" prefWidth="730.0">
+         <children>
+            <Label style="-fx-font-size: 24;" text="Currency in QAR: " />
+            <TextField fx:id="qarTextField" style="-fx-font-size: 24;" />
+         </children>
+      </HBox>
+      <Label fx:id="usdLabel" style="-fx-font-size: 24;" text="Currency in USD:" />
+      <Button mnemonicParsing="false" onAction="#convertNow" style="-fx-font-size: 24;" text="Convert" />
+   </children>
+</VBox>

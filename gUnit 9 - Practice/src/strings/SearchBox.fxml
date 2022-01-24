@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+
+<VBox xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/11.0.1" fx:controller="strings.SearchController">
+   <children>
+      <Pane prefHeight="602.0" prefWidth="697.0">
+         <children>
+            <Label layoutX="63.0" layoutY="36.0" prefHeight="46.0" prefWidth="134.0" style="-fx-font-size: 23;" text="Search for: " />
+            <TextField fx:id="searchField" layoutX="191.0" layoutY="36.0" onAction="#search" prefHeight="46.0" prefWidth="241.0">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </TextField>
+            <TextArea fx:id="textArea" layoutX="30.0" layoutY="101.0" prefHeight="478.0" prefWidth="636.0" wrapText="true">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </TextArea>
+            <Button fx:id="searchButton" layoutX="474.0" layoutY="34.0" mnemonicParsing="false" onAction="#search" prefHeight="36.0" prefWidth="120.0" style="-fx-font-size: 23;" text="Search" />
+         </children>
+      </Pane>
+   </children>
+</VBox>

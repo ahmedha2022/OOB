@@ -1,0 +1,23 @@
+[
+  {
+    "country": "Australia",
+    "type": "Business",
+    "fromDate": "2019-09-10",
+    "toDate": "2019-09-20",
+    "rating": "Excellent"
+  },
+  {
+    "country": "France",
+    "type": "Business",
+    "fromDate": "2019-10-10",
+    "toDate": "2019-10-20",
+    "rating": "Good"
+  },
+  {
+    "country": "Benin",
+    "type": "Leisure",
+    "fromDate": "2019-11-10",
+    "toDate": "2019-11-20",
+    "rating": "Poor"
+  }
+]

@@ -1,0 +1,10 @@
+-XstartOnFirstThread
+--module-path
+/Users/a7medal-hato/Desktop/Programming/Java/javafx/javafx-sdk-14/lib
+--add-modules
+javafx.controls,javafx.fxml
+-Dfile.encoding=UTF-8
+-classpath
+"/Users/a7medal-hato/Desktop/Programming/Java/University/ch_Unit 7 JavaFX_SampleCode/bin:/Users/a7medal-hato/Desktop/Programming/Java/javafx/javafx-sdk-14/lib/javafx-swt.jar:/Users/a7medal-hato/Desktop/Programming/Java/javafx/javafx-sdk-14/lib/javafx.base.jar:/Users/a7medal-hato/Desktop/Programming/Java/javafx/javafx-sdk-14/lib/javafx.controls.jar:/Users/a7medal-hato/Desktop/Programming/Java/javafx/javafx-sdk-14/lib/javafx.fxml.jar:/Users/a7medal-hato/Desktop/Programming/Java/javafx/javafx-sdk-14/lib/javafx.graphics.jar:/Users/a7medal-hato/Desktop/Programming/Java/javafx/javafx-sdk-14/lib/javafx.media.jar:/Users/a7medal-hato/Desktop/Programming/Java/javafx/javafx-sdk-14/lib/javafx.swing.jar:/Users/a7medal-hato/Desktop/Programming/Java/javafx/javafx-sdk-14/lib/javafx.web.jar:/Users/a7medal-hato/Desktop/Programming/Java/University/ch_Unit 7 JavaFX_SampleCode/lib/jackson-annotations-2.10.1.jar:/Users/a7medal-hato/Desktop/Programming/Java/University/ch_Unit 7 JavaFX_SampleCode/lib/jackson-core-2.10.1.jar:/Users/a7medal-hato/Desktop/Programming/Java/University/ch_Unit 7 JavaFX_SampleCode/lib/jackson-databind-2.10.1.jar:/Users/a7medal-hato/Desktop/Programming/Java/University/ch_Unit 7 JavaFX_SampleCode/lib/jackson-datatype-jsr310-2.10.1.jar"
+-XX:+ShowCodeDetailsInExceptionMessages
+_1.firstapp.ColorChangerApp
