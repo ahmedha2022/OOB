@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="test.add.controll3">
+   <children>
+      <BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="523.0" prefWidth="739.0">
+         <top>
+            <HBox prefHeight="72.0" prefWidth="493.0" BorderPane.alignment="CENTER">
+               <children>
+                  <Label alignment="CENTER" prefHeight="72.0" prefWidth="741.0" text="Upadte Account">
+                     <font>
+                        <Font size="24.0" />
+                     </font>
+                  </Label>
+               </children>
+            </HBox>
+         </top>
+         <center>
+            <GridPane prefHeight="291.0" prefWidth="739.0" BorderPane.alignment="CENTER">
+              <columnConstraints>
+                <ColumnConstraints hgrow="SOMETIMES" maxWidth="363.4437255859375" minWidth="10.0" prefWidth="275.4026184082031" />
+                <ColumnConstraints hgrow="SOMETIMES" maxWidth="464.5973815917969" minWidth="10.0" prefWidth="464.5973815917969" />
+              </columnConstraints>
+              <rowConstraints>
+                <RowConstraints maxHeight="122.66665649414062" minHeight="10.0" prefHeight="40.7770741780599" vgrow="SOMETIMES" />
+                <RowConstraints maxHeight="138.66668701171875" minHeight="10.0" prefHeight="38.68096415201823" vgrow="SOMETIMES" />
+                <RowConstraints maxHeight="208.0" minHeight="10.0" prefHeight="45.284230550130204" vgrow="SOMETIMES" />
+                  <RowConstraints maxHeight="114.0" minHeight="0.0" prefHeight="45.983606974283845" vgrow="SOMETIMES" />
+                  <RowConstraints maxHeight="234.66666666666669" minHeight="10.0" prefHeight="48.265787760416686" vgrow="SOMETIMES" />
+                  <RowConstraints maxHeight="234.66666666666669" minHeight="10.0" prefHeight="49.93242390950522" vgrow="SOMETIMES" />
+                  <RowConstraints maxHeight="234.66666666666669" minHeight="3.3333536783854356" prefHeight="49.568461100260436" vgrow="SOMETIMES" />
+                  <RowConstraints maxHeight="234.66666666666669" minHeight="10.0" prefHeight="48.331268310546875" vgrow="SOMETIMES" />
+                  <RowConstraints maxHeight="234.66666666666669" minHeight="10.0" prefHeight="44.044942220052064" vgrow="SOMETIMES" />
+                  <RowConstraints maxHeight="234.66666666666669" minHeight="10.0" prefHeight="45.28839111328125" vgrow="SOMETIMES" />
+              </rowConstraints>
+               <children>
+                  <Label text="Customer ID">
+                     <GridPane.margin>
+                        <Insets left="98.0" />
+                     </GridPane.margin>
+                  </Label>
+                  <Label text="Name" GridPane.rowIndex="1">
+                     <GridPane.margin>
+                        <Insets left="98.0" />
+                     </GridPane.margin>
+                  </Label>
+                  <Label prefHeight="17.0" prefWidth="107.0" text="Phone" GridPane.rowIndex="2">
+                     <GridPane.margin>
+                        <Insets left="98.0" />
+                     </GridPane.margin>
+                  </Label>
+                  <Label text="Nationality" GridPane.rowIndex="4">
+                     <GridPane.margin>
+                        <Insets left="98.0" />
+                     </GridPane.margin>
+                  </Label>
+                  <TextField fx:id="upadateID" onAction="#addPlateNo" prefHeight="25.0" prefWidth="13.0" GridPane.columnIndex="1">
+                     <GridPane.margin>
+                        <Insets right="55.0" />
+                     </GridPane.margin>
+                  </TextField>
+                  <TextField fx:id="upadateName" onAction="#model" GridPane.columnIndex="1" GridPane.rowIndex="1">
+                     <GridPane.margin>
+                        <Insets right="55.0" />
+                     </GridPane.margin>
+                  </TextField>
+                  <TextField fx:id="upadateNational" onAction="#type" GridPane.columnIndex="1" GridPane.rowIndex="4">
+                     <GridPane.margin>
+                        <Insets right="55.0" />
+                     </GridPane.margin>
+                  </TextField>
+                  <Label text="Address" GridPane.rowIndex="3">
+                     <GridPane.margin>
+                        <Insets left="98.0" />
+                     </GridPane.margin>
+                  </Label>
+                  <Label prefHeight="17.0" prefWidth="101.0" text="DrivingLicence" GridPane.rowIndex="5">
+                     <GridPane.margin>
+                        <Insets left="98.0" />
+                     </GridPane.margin>
+                  </Label>
+                  <Label text="PassportNo" GridPane.rowIndex="6">
+                     <GridPane.margin>
+                        <Insets left="98.0" />
+                     </GridPane.margin>
+                  </Label>
+                  <Label text="Entery Date" GridPane.rowIndex="7">
+                     <GridPane.margin>
+                        <Insets left="98.0" />
+                     </GridPane.margin>
+                  </Label>
+                  <Label text="Visa Expiry Date" GridPane.rowIndex="8">
+                     <GridPane.margin>
+                        <Insets left="98.0" />
+                     </GridPane.margin>
+                  </Label>
+                  <TextField fx:id="upadateDriving" GridPane.columnIndex="1" GridPane.rowIndex="5">
+                     <GridPane.margin>
+                        <Insets right="55.0" />
+                     </GridPane.margin>
+                  </TextField>
+                  <TextField fx:id="upadatePassport" GridPane.columnIndex="1" GridPane.rowIndex="6">
+                     <GridPane.margin>
+                        <Insets right="55.0" />
+                     </GridPane.margin>
+                  </TextField>
+                  <DatePicker fx:id="upadateEntrydate" prefHeight="25.0" prefWidth="418.0" GridPane.columnIndex="1" GridPane.rowIndex="7">
+                     <GridPane.margin>
+                        <Insets right="55.0" />
+                     </GridPane.margin>
+                  </DatePicker>
+                  <DatePicker fx:id="upadateExpiry" prefHeight="25.0" prefWidth="418.0" GridPane.columnIndex="1" GridPane.rowIndex="8">
+                     <GridPane.margin>
+                        <Insets right="55.0" />
+                     </GridPane.margin>
+                  </DatePicker>
+                  <TextField fx:id="upadateAdress" GridPane.columnIndex="1" GridPane.rowIndex="3">
+                     <GridPane.margin>
+                        <Insets right="55.0" />
+                     </GridPane.margin>
+                  </TextField>
+                  <Button fx:id="OKbutton" mnemonicParsing="false" onAction="#handle1" prefWidth="105.0" text="OK" GridPane.columnIndex="1" GridPane.rowIndex="8">
+                     <GridPane.margin>
+                        <Insets left="84.0" top="70.0" />
+                     </GridPane.margin>
+                  </Button>
+                  <Button fx:id="CancelButtom" mnemonicParsing="false" onAction="#handle2" prefWidth="105.0" text="Cancel" GridPane.columnIndex="1" GridPane.rowIndex="8">
+                     <GridPane.margin>
+                        <Insets left="219.0" top="70.0" />
+                     </GridPane.margin>
+                  </Button>
+                  <TextField fx:id="upadatePhone" GridPane.columnIndex="1" GridPane.rowIndex="2">
+                     <GridPane.margin>
+                        <Insets right="55.0" />
+                     </GridPane.margin>
+                  </TextField>
+               </children>
+            </GridPane>
+         </center>
+      </BorderPane>
+   </children>
+</AnchorPane>
